@@ -23,7 +23,7 @@ public class ContactTest {
     			.setPhone("9423494096")
     			.build();
     	
-        assertEquals("Gaurav", contact.getName());
+        assertEquals("gav", contact.getName());
         assertEquals("ramolegaurav9@gmail.com", contact.getEmail());
         assertEquals("plot no 45 lokmanya tilak nagar", contact.getAddress());
         assertEquals("9423494096", contact.getPhone());
